@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	    xmlns:app="http://schemas.android.com/apk/res-auto"
+    	    xmlns:tools="http://schemas.android.com/tools"
+    	    tools:context=".MainActivity"
+    	    android:id="@+id/relLayout"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:background="@drawable/img_3"
+    	    android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=" WINDOW NOTIFICATIONS"
+		android:textSize="50dp"
+		android:textStyle="bold"
+		android:textAlignment="center"
+		android:layout_marginTop="60dp"
+		android:textColor="@color/black"/>
+
+    	    <Button
+    	        android:id="@+id/simpleNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="45dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="Simple Notification"
+				android:textSize="20dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:textColor="@color/white"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	    <Button
+    	        android:id="@+id/bigtextNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="BigTextStyle Notification"
+				android:textSize="20dp"
+    	        android:textColor="@color/white"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	    <Button
+    	        android:id="@+id/bigpictureNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="BigPictureStyle Notification"
+				android:textSize="20dp"
+    	        android:textColor="@color/white"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	    <Button
+    	        android:id="@+id/inboxNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="InboxStyle Notification"
+				android:textSize="20dp"
+    	        android:textColor="@color/white"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	    <Button
+    	        android:id="@+id/messagingNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="MessagingStyle Notification"
+				android:textSize="20dp"
+    	        android:textColor="@color/white"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	    <Button
+    	        android:id="@+id/actionNot"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+				android:textSize="20dp"
+    	        android:layout_marginTop="10dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:text="Notification Actions"
+    	        android:textColor="@color/white"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+    	        android:padding="5dp"
+    	        android:onClick="onClick"/>
+
+    	</LinearLayout>
